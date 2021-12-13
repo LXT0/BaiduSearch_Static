@@ -1,0 +1,2 @@
+# BaiduSearch_Static
+前端练习之百度搜索静态页面代码编写
