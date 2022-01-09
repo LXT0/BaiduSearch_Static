@@ -12,7 +12,7 @@
 		<header>
 			<!-- 左边的部分 -->
 			<div id="modules">
-				<a href="http://news.baidu.com/" target="_blank">新闻</a><a href="https://www.hao123.com/" target="_blank">hao123</a><a href="https://map.baidu.com/@12119923,4034749,13z" target="_blank">地图</a><a href="https://live.baidu.com/" target="_blank">直播</a><a href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank">视频</a><a href="https://tieba.baidu.com/index.html" target="_blank">贴吧</a><a href="https://xueshu.baidu.com/" target="_blank">学术</a><a href="https://www.baidu.com/more/" target="_blank">更多</a>
+				<a href="http://news.baidu.com/" target="_blank">新闻</a><a href="https://www.hao123.com/" target="_blank">hao123</a><a href="https://map.baidu.com/@12119923,4034749,13z" target="_blank">地图</a><a href="https://live.baidu.com/" target="_blank">贴吧</a><a href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank">视频</a><a href="https://tieba.baidu.com/index.html" target="_blank">图片</a><a href="https://xueshu.baidu.com/" target="_blank">网盘</a><a href="https://www.baidu.com/more/" target="_blank">更多</a>
 			</div>
 			<!-- 右边的部分 -->
 			<div id="tools">
@@ -25,13 +25,17 @@
 				<img src="logo.png" title="点击一下，了解更多" alt="百度搜索" />
 			</div>
 			<div id="search">
-				<input type="text" name="input" />
-				<img src="camera.png" alt="按图片搜索" />
-				<span>按图片搜索</span>
-				<input type="submit" name="submit" value="百度一下" />
+				<input type="text" name="input" id="input" /><input id="baiduOnce" type="submit" name="submit" value="百度一下" />
+				<span id="camera"><div></div></span>
+				<span id="tip">按图片搜索</span>
 			</div>
 			<div id="hots">
-				百度热搜 换一换
+				<a id="a1" href="https://top.baidu.com/board?platform=pc&sa=pcindex_entry" src="百度热搜"><b>百度热搜</b></a>
+				<div id="jiantou"></div>
+			</div>
+			<div id="change">
+				<div id="change_pic"></div>
+				<a id="a2" href="#" src="换一换">换一换</a>
 			</div>
 			<div id="top_six">
 				最热的六条
